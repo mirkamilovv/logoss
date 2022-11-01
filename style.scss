@@ -1,3 +1,5 @@
+@import "css/media";
+
 * {
   margin: 0;
   padding: 0;
@@ -8,20 +10,19 @@ a {
 }
 
 .container {
-  width: 90%;
+  max-width: 90%;
   margin: 0 auto;
 }
 
 body {
   font-family: sans-serif;
-  width: 1440px;
+  max-width: 1440px;
   //height: 6215px;
   background: rgba(11, 11, 34, 0.9);
   backdrop-filter: blur(87.5px);
 }
 
 #header {
-  //background: #0B0B22;
 
   .header {
     display: flex;
@@ -48,13 +49,12 @@ body {
 
 
     &--title {
-      //width: 0px;
+
       a {
         padding: 0 60px;
         font-weight: 400;
         font-size: 16px;
         line-height: 22px;
-        /* identical to box height */
 
 
         color: rgba(255, 255, 255, 0.8);
@@ -158,6 +158,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 30px 0;
+  flex-wrap: wrap;
 
   .block--title {
     padding-left: 50px;
@@ -191,6 +192,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 
 }
 
@@ -199,6 +201,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 
   &--title {
     h3 {
@@ -232,6 +235,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   &--left {
     h3 {
@@ -261,6 +265,7 @@ body {
     }
 
     button {
+
       width: 200px;
       height: 50px;
       background: rgba(255, 255, 255, 0.1);
@@ -344,13 +349,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    //flex-wrap: wrap;
   }
 }
 
-.need  {
+.need {
   margin: 130px 0;
-  width: 1308px;
-  height: 911px;
+  max-width: 1308px;
+  height: auto;
   background: #221048;
   border-radius: 30px;
   padding: 30px 0;
@@ -448,12 +454,87 @@ body {
       background: #16FCD2;
     }
   }
+
+  &--block1 {
+
+    margin: 0 30px;
+    padding: 20px 0;
+    width: 330px;
+    height: 400px;
+    background: #3F2379;
+    border-radius: 10px;
+
+    &__design {
+      h2 {
+        font-weight: 700;
+        font-size: 16px;
+        color: #FFFFFF;
+        margin-left: 30px;
+        margin-top: 10px;
+
+
+      }
+
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 36px;
+      text-align: center;
+      color: #FFFFFF;
+      //padding-bottom: 80px;
+      margin-top: 80px;
+      padding: 10px 0;
+
+    }
+
+    h5 {
+      font-weight: 400;
+      font-size: 12px;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.6);
+      margin-left: 50px;
+      padding: 10px 0;
+      margin-top: -20px;
+
+    }
+
+    h4 {
+      font-weight: 700;
+      font-size: 36px;
+      color: #FFFFFF;
+      margin-left: 150px;
+
+    }
+
+    button {
+      margin-left: 80px;
+      //padding: 20px 0;
+      width: 150px;
+      height: 30px;
+      background: #FFFFFF;
+      border-radius: 3px;
+      font-weight: 600;
+      font-size: 16px;
+      text-align: center;
+      color: #3F2379;
+      border: none;
+      transition: .4s;
+    }
+
+    button:hover {
+      color: #3F2379;
+      background: #16FCD2;
+    }
+  }
 }
 
 .group-block {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .problem {
@@ -472,6 +553,7 @@ body {
 
   &--ask {
     button {
+      border: none;
       width: 200px;
       height: 50px;
       background: #6016FC;
@@ -491,6 +573,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   &--one {
     margin-top: 30px;
@@ -521,15 +604,17 @@ body {
 
     }
   }
-  &--two{
-    h5{
+
+  &--two {
+    h5 {
       font-weight: 500;
       font-size: 14px;
       letter-spacing: 0.1em;
       color: #FFFFFF;
 
     }
-    span{
+
+    span {
       font-weight: 400;
       font-size: 16px;
       line-height: 28px;

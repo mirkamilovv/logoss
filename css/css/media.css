@@ -1,0 +1,12 @@
+@media (max-width: 1440px) {
+  .container {
+    max-width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  .block--title {
+    margin: 0 20px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

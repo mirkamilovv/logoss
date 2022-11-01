@@ -1,0 +1,133 @@
+@media (max-width: 1440px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header--title {
+    display: none;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .block--title {
+    margin: 0 20px;
+  }
+
+
+  .home img {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+  .problem--ask button {
+    margin: 15px 0;
+  }
+  .need--block1 {
+    margin: 20px 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  #block {
+    .block {
+      &--title {
+        flex-wrap: wrap;
+      }
+    }
+  }
+  .team {
+    margin-left: 80px;
+  }
+  .many--text {
+    h1 {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 570px) {
+  .logo img {
+    width: 100px;
+    height: 50px;
+  }
+  .need--block {
+    margin: 20px 0 !important;
+  }
+  .home--title {
+
+    h1 {
+      text-align: center;
+      font-size: 10px;
+    }
+  }
+  .group-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .block--title {
+    margin: 20px 0 !important;
+  }
+  .need--block {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+
+    &__desing {
+      h2 {
+        color: #fc1691 !important;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 451px) {
+  .many--block {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+  }
+  .block--title {
+    max-width: 90%;
+  }
+  .team--right img {
+    width: 90%;
+    margin: 40px 0;
+  }
+}
+
+@media (max-width: 451px) {
+  .hero--title__btn button {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 376px) {
+
+}
+
+@media (max-width: 320px) {
+  .need--block {
+    max-width: 280px;
+  }
+  .problem {
+    flex-wrap: wrap;
+  }
+  .block--title {
+    max-width: 220px;
+  }
+}
